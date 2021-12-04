@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138106020598",
+    "project_id": "cetapp-f6b07",
+    "storage_bucket": "cetapp-f6b07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138106020598:android:e1f8780a8d4d1b6e6102d7",
+        "android_client_info": {
+          "package_name": "com.job.cetapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138106020598-3tqouu75vla7u5lcg4q34l3eoccqd5na.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACQ68RMsVe4qQG9sxMByct0jdWgwEmSSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138106020598-3tqouu75vla7u5lcg4q34l3eoccqd5na.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
