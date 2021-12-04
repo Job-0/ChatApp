@@ -1,8 +1,10 @@
-package com.job.cetapp;
+package com.job.cetapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.job.cetapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
