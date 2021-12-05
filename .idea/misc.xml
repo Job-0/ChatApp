@@ -3,12 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/eyupe/Android Studio Projects/cetapp/app/src/main/res/drawable/background_content_bottom.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/eyupe/Android Studio Projects/cetapp/app/src/main/res/drawable/background_icon.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/eyupe/Android Studio Projects/cetapp/app/src/main/res/drawable/background_image.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/eyupe/Android Studio Projects/cetapp/app/src/main/res/drawable/background_input.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/eyupe/Android Studio Projects/cetapp/app/src/main/res/drawable/ic_add.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/eyupe/Android Studio Projects/cetapp/app/src/main/res/drawable/ic_back.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/eyupe/Android Studio Projects/cetapp/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/eyupe/Android Studio Projects/cetapp/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
         <entry key="..\:/Users/eyupe/Android Studio Projects/cetapp/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/eyupe/Android Studio Projects/cetapp/app/src/main/res/layout/activity_users.xml" value="0.209375" />
+        <entry key="..\:/Users/eyupe/Android Studio Projects/cetapp/app/src/main/res/layout/item_container_user.xml" value="0.209375" />
       </map>
     </option>
   </component>
