@@ -2,6 +2,7 @@ package com.job.cetapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -9,6 +10,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.job.cetapp.adapters.UsersAdapter;
 import com.job.cetapp.databinding.ActivityUsersBinding;
+import com.job.cetapp.listeners.UserListener;
 import com.job.cetapp.models.User;
 import com.job.cetapp.utilities.Constants;
 import com.job.cetapp.utilities.PreferenceManager;
@@ -16,7 +18,7 @@ import com.job.cetapp.utilities.PreferenceManager;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UsersActivity extends AppCompatActivity {
+public class UsersActivity extends AppCompatActivity implements UserListener {
 
     ActivityUsersBinding binding;
     PreferenceManager preferenceManager;
@@ -57,7 +59,7 @@ public class UsersActivity extends AppCompatActivity {
                            users.add(user);
                        }
                        if (users.size() > 0) {
-                           UsersAdapter usersAdapter = new UsersAdapter(users);
+                           UsersAdapter usersAdapter = new UsersAdapter(users, this);
                            binding.usersRecyclerView.setAdapter(usersAdapter);
                            binding.usersRecyclerView.setVisibility(View.VISIBLE);
                        }else {
@@ -80,5 +82,13 @@ public class UsersActivity extends AppCompatActivity {
         }else {
             binding.progressBar.setVisibility(View.INVISIBLE);
         }
+    }
+
+    @Override
+    public void onUserClicked(User user) {
+        Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
+        intent.putExtra(Constants.KEY_USER, user);
+        startActivity(intent);
+        finish();
     }
 }
