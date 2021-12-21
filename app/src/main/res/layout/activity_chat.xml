@@ -71,6 +71,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="@dimen/_12sdp"
+        android:background="@color/primary"
         app:layout_constraintTop_toBottomOf="@id/imageBack"/>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -81,10 +82,11 @@
         android:orientation="vertical"
         android:overScrollMode="never"
         android:padding="@dimen/_20sdp"
+        app:stackFromEnd="true"
         android:visibility="gone"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constraintTop_toBottomOf="@id/imageBack"
-        app:layout_constraintBottom_toBottomOf="@id/viewSupporter"/>
+        app:layout_constraintTop_toBottomOf="@id/viewSupporter"
+        app:layout_constraintBottom_toBottomOf="@id/viewBackground"/>
 
     <ProgressBar
         android:id="@+id/progressBar"
