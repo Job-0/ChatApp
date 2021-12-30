@@ -1,7 +1,5 @@
 package com.job.cetapp.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -18,7 +16,7 @@ import com.job.cetapp.utilities.PreferenceManager;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UsersActivity extends AppCompatActivity implements UserListener {
+public class UsersActivity extends BaseActivity implements UserListener {
 
     ActivityUsersBinding binding;
     PreferenceManager preferenceManager;
