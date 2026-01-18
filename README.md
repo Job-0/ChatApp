@@ -65,4 +65,4 @@ Key dependencies used in this project:
 
 ## License
 
-[Add License Information Here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
