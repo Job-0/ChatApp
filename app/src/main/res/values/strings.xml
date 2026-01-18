@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">cetapp</string>
+    <string name="app_name">ChatApp</string>
     <string name="welcome">Welcome</string>
     <string name="e_mail">e-mail</string>
     <string name="login_to_continue">Login to continue</string>

@@ -1,6 +1,6 @@
-# CetApp
+# ChatApp
 
-CetApp is a real-time Android chat application built with Java. It leverages Firebase for seamless backend services, including real-time database capabilities and push notifications.
+ChatApp is a real-time Android chat application built with Java. It leverages Firebase for seamless backend services, including real-time database capabilities and push notifications.
 
 ## Features
 
